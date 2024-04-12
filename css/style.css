@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f3f8;
+    height: 100vh;
+    font-family: "Abel";
+}
+
+/* navbar */
+#navbarMonstera{
+    margin:20px 60px;
+    position:relative;
+}
+#navbarMonstera div{
+    display:inline-block;
+}
+#navFirst img{
+    width:120px;
+}
+#navMid{
+    font-family: "Allerta";
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#navMid div:first-child h4::after{
+    content:'';
+    display:block;
+    height:1.5px;
+    width:100%;
+    background-color: #000;
+}
+#navMid>div>h4{
+    margin:auto 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+#navEnd{
+    position:absolute;
+    right:0%;
+    top:50%;
+    transform: translate(0%,-50%);
+}
+#navEnd>div>img{
+    margin:auto 10px;
+    cursor: pointer;
+}
+/* body */
+#midWhole{
+    margin:40px auto auto 60px;
+    position:relative;
+}
+#midWhole #midWholeParts div{
+    display:inline-block;
+}
+#monstera{
+    font-family: "Allerta";
+    font-size: 6rem;
+    margin-top: 50px;
+}
+div ul li:first-child~li{
+    max-width: 470px;
+}
+div ul li:nth-child(2){
+    margin-top: -20px;
+}
+
+#midWholePart12 #midWholePart121{
+    position: absolute;
+    left:30px;
+    margin-top:40px;
+    background-color: #466d50;
+    color:#fff;
+    padding:8px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#midWholePart122 img{
+    width:10px;
+    margin:50%;
+}
+#midWholePart13{
+    position:absolute;
+    left:0%;
+    top:180%;
+}
+#feeding{
+    width:90px;
+    margin-top: 20px;
+    padding-right: 10px;
+    position:relative;
+    top:10px;
+}
+#light{
+    width:45px;
+    padding-right: 10px;
+}
+#care{
+    width:55px;
+    padding-right: 10px;
+}
+#midWholePart13Parts div:nth-child(2) h4{
+    font-family: "Allerta";
+    font-size: 0.8.8rem;
+}
+.text{
+    color:#4e4d4d;
+    font-size: 14px;
+    padding-top: -4px;
+    max-width: 200px;
+    margin-right: 50px;
+}
+#imgMain{
+    position:absolute;
+    top:0%;
+    right:0%;
+    width: 450px;
+}
