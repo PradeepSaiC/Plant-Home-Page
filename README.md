@@ -1,4 +1,4 @@
-# Law Home Page
+# Plant Home Page
 ![html badge](https://img.shields.io/badge/Html-tomato) ![css badge](https://img.shields.io/badge/CSS-blue
 )  
 ![learning process](https://img.shields.io/badge/Project%20Based%20Learning-darkviolet
