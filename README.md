@@ -20,4 +20,4 @@
 ![output img](./screenshot/image.png)  
 
 ### Time Taken - 6 hours
-### Live link - 
+### Live link - [Link](https://plant-home-page-lovat.vercel.app/)
